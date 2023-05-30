@@ -1,0 +1,72 @@
+body {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+  background: url("background.jpg");
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: #6DDE11;
+  font-family: sans-serif;
+}
+
+h2, p {
+  font-family: sans-serif;
+  color: white;
+  margin: 2px;
+}
+
+.monopattino>nome-Monopattino::before {
+  content: "\25A0";
+}
+
+header {
+  text-align: center;
+}
+
+.logo {
+  width: 300px;
+}
+
+.container {
+  background: rgb(0, 0, 0, 0.5);
+  margin: 50px;
+  padding: 50px;
+  border-radius: 50px
+}
+
+.pulsanti {
+  text-align: center;
+  background: #6DDE11;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.monopattino {
+  width: 80%;
+}
+
+.carica {
+  border-radius: 5px;
+  height: 25px;
+}
+
+.carica-bassa {
+  background-color: red;
+  width: 25%;
+}
+
+.carica-media {
+  background-color: orange;
+  width: 50%;
+}
+
+.carica-alta {
+  background-color: green;
+  width: 90%;
+}
